@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+}
+
+a:link {
+    color: #596D48;
+}
+
+#wholepage {
+    min-height: 100vh;
+    display: flex;
+}
+
+footer {
+    margin-top: 100vh;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.footer a:link{
+    color: white;
+}
+
+.leftside {
+    background-image: url(/img/backgroundLeaves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 40vw
+}
+
+.tagimg{
+    max-width: 40vw;
+    max-height: 12vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 250px;
+}
+.logoimg{
+    align-self: center;
+    
+}
+
+.sitename {
+    color: white;
+    align-self: center;
+    font-family: Norse-Bold, Helvetica;
+    font-size: 70px;
+}
+
+.logoimg {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.toptext{
+    margin: 50px;
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    width: 500px;
+}
