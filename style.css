@@ -63,3 +63,50 @@ footer {
     font-weight: bold;
     width: 500px;
 }
+
+.encouragement {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+form {
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+}
+.theform{
+    margin-left: 40px;
+}
+
+label,input{
+    margin-left: 40px;
+    display:flex;
+    flex-direction:column;
+  }
+  input {
+      margin-bottom: 10px;
+  }
+
+  .theinfo{
+    box-shadow: 1px 5px 5px 3px black;
+    margin-bottom: 25px;
+  }
+
+  button {
+      height: 40px;
+      width:200px;
+      border-radius: 10px;
+      background-color: #596D48;
+      color: white;
+  }
+
+  .alreadyuser {
+      font-family: Helvetica, sans-serif;
+      margin-left: 25px;
+  }
+
+  .login {
+      font-weight: bold;
+  }
